@@ -41,6 +41,7 @@ public class EndToEndClass extends BaseTest{
 		Assert.assertTrue(con.getConfirm());
 		
 	}
+//just comment
 		@Test(dependsOnMethods= {"submitOrder"})
 		public void VerifyOrder() throws InterruptedException, IOException {
 		String Prodname="ZARA COAT 3";
